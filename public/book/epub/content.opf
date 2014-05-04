@@ -1,0 +1,137 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <meta name="calibre:rating" content="0"/>
+    <meta name="calibre:series_index" content="1"/>
+    <dc:language>UND</dc:language>
+    <meta name="calibre:timestamp" content="2010-05-28T16:00:00+00:00"/>
+    <dc:title>天龙八部</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2010-05-29 00:00:00+08:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (0.6.54) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">70765b99-f8ae-4314-ab0d-6ff01aeeba99</dc:identifier>
+  <dc:creator opf:role="aut" opf:file-as="原著：金庸">原著：金庸</dc:creator>
+<dc:description></dc:description>
+</metadata>
+  <manifest>
+    <item href="OEBPS/00001.html" id="id00001" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00002.html" id="id00002" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00003.html" id="id00003" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00004.html" id="id00004" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00005.html" id="id00005" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00006.html" id="id00006" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00007.html" id="id00007" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00008.html" id="id00008" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00009.html" id="id00009" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00010.html" id="id00010" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00011.html" id="id00011" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00012.html" id="id00012" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00013.html" id="id00013" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00014.html" id="id00014" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00015.html" id="id00015" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00016.html" id="id00016" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00017.html" id="id00017" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00018.html" id="id00018" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00019.html" id="id00019" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00020.html" id="id00020" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00021.html" id="id00021" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00022.html" id="id00022" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00023.html" id="id00023" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00024.html" id="id00024" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00025.html" id="id00025" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00026.html" id="id00026" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00027.html" id="id00027" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00028.html" id="id00028" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00029.html" id="id00029" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00030.html" id="id00030" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00031.html" id="id00031" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00032.html" id="id00032" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00033.html" id="id00033" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00034.html" id="id00034" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00035.html" id="id00035" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00036.html" id="id00036" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00037.html" id="id00037" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00038.html" id="id00038" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00039.html" id="id00039" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00040.html" id="id00040" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00041.html" id="id00041" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00042.html" id="id00042" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00043.html" id="id00043" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00044.html" id="id00044" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00045.html" id="id00045" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00046.html" id="id00046" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00047.html" id="id00047" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00048.html" id="id00048" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00049.html" id="id00049" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00050.html" id="id00050" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00051.html" id="id00051" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00052.html" id="id00052" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00053.html" id="id00053" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/00054.html" id="id00054" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/aa54309f020e9664b06870b0fa08d786.ttf" id="added" media-type="application/x-font-truetype"/>
+    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="stylesheet.css" id="css1" media-type="text/css"/>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id00001"/>
+    <itemref idref="id00002"/>
+    <itemref idref="id00003"/>
+    <itemref idref="id00004"/>
+    <itemref idref="id00005"/>
+    <itemref idref="id00006"/>
+    <itemref idref="id00007"/>
+    <itemref idref="id00008"/>
+    <itemref idref="id00009"/>
+    <itemref idref="id00010"/>
+    <itemref idref="id00011"/>
+    <itemref idref="id00012"/>
+    <itemref idref="id00013"/>
+    <itemref idref="id00014"/>
+    <itemref idref="id00015"/>
+    <itemref idref="id00016"/>
+    <itemref idref="id00017"/>
+    <itemref idref="id00018"/>
+    <itemref idref="id00019"/>
+    <itemref idref="id00020"/>
+    <itemref idref="id00021"/>
+    <itemref idref="id00022"/>
+    <itemref idref="id00023"/>
+    <itemref idref="id00024"/>
+    <itemref idref="id00025"/>
+    <itemref idref="id00026"/>
+    <itemref idref="id00027"/>
+    <itemref idref="id00028"/>
+    <itemref idref="id00029"/>
+    <itemref idref="id00030"/>
+    <itemref idref="id00031"/>
+    <itemref idref="id00032"/>
+    <itemref idref="id00033"/>
+    <itemref idref="id00034"/>
+    <itemref idref="id00035"/>
+    <itemref idref="id00036"/>
+    <itemref idref="id00037"/>
+    <itemref idref="id00038"/>
+    <itemref idref="id00039"/>
+    <itemref idref="id00040"/>
+    <itemref idref="id00041"/>
+    <itemref idref="id00042"/>
+    <itemref idref="id00043"/>
+    <itemref idref="id00044"/>
+    <itemref idref="id00045"/>
+    <itemref idref="id00046"/>
+    <itemref idref="id00047"/>
+    <itemref idref="id00048"/>
+    <itemref idref="id00049"/>
+    <itemref idref="id00050"/>
+    <itemref idref="id00051"/>
+    <itemref idref="id00052"/>
+    <itemref idref="id00053"/>
+    <itemref idref="id00054"/>
+  </spine>
+  <guide>
+    <reference href="titlepage.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>

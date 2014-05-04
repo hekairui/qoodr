@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>qoodr</title>
+<link rel="stylesheet/less" type="text/css" href="css/qoodr.less">
+<script src="scripts/lib/less-1.4.2.min.js"></script>
+<script src="scripts/lib/require.js"></script>
+<script type="text/javascript" src="scripts/lib/zip.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>
+      <a href="../">zip.js</a> <span class="small"></span>
+    </h1>
+
+    <div class="description">
+      A JavaScript library to zip and unzip files
+      <hr>
+    </div>
+    
+    <h2>Read a zip file demo</h2>
+    
+    <ol id="demo-container">
+      <li>
+        <label>
+          <span class="form-label">choose a zip file</span>
+          <input type="file" accept="application/zip" id="file-input">
+        </label>
+      </li>
+      <li>
+        <label>
+          <span class="form-label">choose temporary storage</span>
+          <select id="creation-method-input">
+            <option value="Blob">RAM</option>
+            <option value="File">HDD</option>
+          </select>
+        </label>
+      </li>
+      <li>
+        <span class="form-label">download zip content</span>
+        <ul id="file-list">
+        </ul>
+      </li>
+    </ol>
+
+</div>
+</body>
+<script>
+ // var requestFileSystem = obj.webkitRequestFileSystem || obj.mozRequestFileSystem || obj.requestFileSystem;
+
+  function onerror(message) {
+    alert(message);
+  }
+
+  function createTempFile(callback) {
+    var tmpFilename = "tmp.dat";
+    requestFileSystem(TEMPORARY, 4 * 1024 * 1024 * 1024, function(filesystem) {
+      function create() {
+        filesystem.root.getFile(tmpFilename, {
+          create : true
+        }, function(zipFile) {
+          callback(zipFile);
+        });
+      }
+
+      filesystem.root.getFile(tmpFilename, null, function(entry) {
+        entry.remove(create, create);
+      }, create);
+    });
+  }
+// // use a BlobReader to read the zip from a Blob object
+// zip.createReader(new zip.BlobReader(blob), function(reader) {
+
+//   // get all entries from the zip
+//   reader.getEntries(function(entries) {
+//     if (entries.length) {
+
+//       // get first entry content as text
+//       entries[0].getData(new zip.TextWriter(), function(text) {
+//         // text contains the entry data as a String
+//         console.log(text);
+
+//         // close the zip reader
+//         reader.close(function() {
+//           // onclose callback
+//         });
+
+//       }, function(current, total) {
+//         // onprogress callback
+//       });
+//     }
+//   });
+// }, function(error) {
+//   // onerror callback
+// });
+(function(obj) {
+
+  var requestFileSystem = obj.webkitRequestFileSystem || obj.mozRequestFileSystem || obj.requestFileSystem;
+
+  function onerror(message) {
+    alert(message);
+  }
+
+  function createTempFile(callback) {
+    var tmpFilename = "tmp.dat";
+    requestFileSystem(TEMPORARY, 4 * 1024 * 1024 * 1024, function(filesystem) {
+      function create() {
+        filesystem.root.getFile(tmpFilename, {
+          create : true
+        }, function(zipFile) {
+          callback(zipFile);
+        });
+      }
+
+      filesystem.root.getFile(tmpFilename, null, function(entry) {
+        entry.remove(create, create);
+      }, create);
+    });
+  }
+
+  var model = (function() {
+    var URL = obj.webkitURL || obj.mozURL || obj.URL;
+
+    return {
+      getEntries : function(file, onend) {
+        zip.createReader(new zip.BlobReader(file), function(zipReader) {
+          zipReader.getEntries(onend);
+        }, onerror);
+      },
+      getEntryFile : function(entry, creationMethod, onend, onprogress) {
+        var writer, zipFileEntry;
+
+        function getData() {
+          entry.getData(writer, function(blob) {
+            var blobURL = creationMethod == "Blob" ? URL.createObjectURL(blob) : zipFileEntry.toURL();
+            onend(blobURL);
+          }, onprogress);
+        }
+
+        if (creationMethod == "Blob") {
+          writer = new zip.BlobWriter();
+          getData();
+        } else {
+          createTempFile(function(fileEntry) {
+            zipFileEntry = fileEntry;
+            writer = new zip.FileWriter(zipFileEntry);
+            getData();
+          });
+        }
+      }
+    };
+  })();
+
+  (function() {
+    var fileInput = document.getElementById("file-input");
+    var unzipProgress = document.createElement("progress");
+    var fileList = document.getElementById("file-list");
+    var creationMethodInput = document.getElementById("creation-method-input");
+
+    function download(entry, li, a) {
+      model.getEntryFile(entry, creationMethodInput.value, function(blobURL) {
+        var clickEvent = document.createEvent("MouseEvent");
+        if (unzipProgress.parentNode)
+          unzipProgress.parentNode.removeChild(unzipProgress);
+        unzipProgress.value = 0;
+        unzipProgress.max = 0;
+        clickEvent.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+        a.href = blobURL;
+        a.download = entry.filename;
+        a.dispatchEvent(clickEvent);
+      }, function(current, total) {
+        unzipProgress.value = current;
+        unzipProgress.max = total;
+        li.appendChild(unzipProgress);
+      });
+    }
+
+    if (typeof requestFileSystem == "undefined")
+      creationMethodInput.options.length = 1;
+    fileInput.addEventListener('change', function() {
+      fileInput.disabled = true;
+      model.getEntries(fileInput.files[0], function(entries) {
+        fileList.innerHTML = "";
+        console.log(entries)
+        entries.forEach(function(entry) {
+          var li = document.createElement("li");
+          var a = document.createElement("a");
+          a.textContent = entry.filename;
+          a.href = "#";
+          a.addEventListener("click", function(event) {
+            if (!a.download) {
+              download(entry, li, a);
+              event.preventDefault();
+              return false;
+            }
+          }, false);
+          li.appendChild(a);
+          fileList.appendChild(li);
+        });
+      });
+    }, false);
+  })();
+
+})(this);
+</script>
+</html>

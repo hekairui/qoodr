@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="UND">
+  <head>
+    <meta content="70765b99-f8ae-4314-ab0d-6ff01aeeba99" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (0.6.54)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>天龙八部</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="id00002" playOrder="1">
+      <navLabel>
+        <text>释名</text>
+      </navLabel>
+      <content src="OEBPS/00002.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00003" playOrder="2">
+      <navLabel>
+        <text>第一回　青衫磊落险峰行</text>
+      </navLabel>
+      <content src="OEBPS/00003.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00004" playOrder="3">
+      <navLabel>
+        <text>第二回　玉壁月华明</text>
+      </navLabel>
+      <content src="OEBPS/00004.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00005" playOrder="4">
+      <navLabel>
+        <text>第三回　马疾香幽</text>
+      </navLabel>
+      <content src="OEBPS/00005.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00006" playOrder="5">
+      <navLabel>
+        <text>第四回　崖高人远</text>
+      </navLabel>
+      <content src="OEBPS/00006.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00007" playOrder="6">
+      <navLabel>
+        <text>第五回　微步縠纹生</text>
+      </navLabel>
+      <content src="OEBPS/00007.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00008" playOrder="7">
+      <navLabel>
+        <text>第六回　谁家子弟谁家院</text>
+      </navLabel>
+      <content src="OEBPS/00008.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00009" playOrder="8">
+      <navLabel>
+        <text>第七回　无计悔多情</text>
+      </navLabel>
+      <content src="OEBPS/00009.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00010" playOrder="9">
+      <navLabel>
+        <text>第八回　虎啸龙吟</text>
+      </navLabel>
+      <content src="OEBPS/00010.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00011" playOrder="10">
+      <navLabel>
+        <text>第九回　换巢鸾凤</text>
+      </navLabel>
+      <content src="OEBPS/00011.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00012" playOrder="11">
+      <navLabel>
+        <text>第十回　剑气碧烟横</text>
+      </navLabel>
+      <content src="OEBPS/00012.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00013" playOrder="12">
+      <navLabel>
+        <text>第十一回　向来痴</text>
+      </navLabel>
+      <content src="OEBPS/00013.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00014" playOrder="13">
+      <navLabel>
+        <text>第十二回　从此醉</text>
+      </navLabel>
+      <content src="OEBPS/00014.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00015" playOrder="14">
+      <navLabel>
+        <text>第十三回　水榭听香 指点群豪戏</text>
+      </navLabel>
+      <content src="OEBPS/00015.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00016" playOrder="15">
+      <navLabel>
+        <text>第十四回　剧饮千杯男儿事</text>
+      </navLabel>
+      <content src="OEBPS/00016.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00017" playOrder="16">
+      <navLabel>
+        <text>第十五回　杏子林中 商略平生义</text>
+      </navLabel>
+      <content src="OEBPS/00017.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00018" playOrder="17">
+      <navLabel>
+        <text>第十六回　昔时因</text>
+      </navLabel>
+      <content src="OEBPS/00018.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00019" playOrder="18">
+      <navLabel>
+        <text>第十七回　今日意</text>
+      </navLabel>
+      <content src="OEBPS/00019.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00020" playOrder="19">
+      <navLabel>
+        <text>第十八回　胡汉恩仇 须倾英雄泪</text>
+      </navLabel>
+      <content src="OEBPS/00020.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00021" playOrder="20">
+      <navLabel>
+        <text>第19回 虽万千人吾往矣</text>
+      </navLabel>
+      <content src="OEBPS/00021.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00022" playOrder="21">
+      <navLabel>
+        <text>第20回 悄立雁门，绝壁无余字</text>
+      </navLabel>
+      <content src="OEBPS/00022.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00023" playOrder="22">
+      <navLabel>
+        <text>第21回 千里茫茫若梦</text>
+      </navLabel>
+      <content src="OEBPS/00023.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00024" playOrder="23">
+      <navLabel>
+        <text>第22回 双眸粲粲如星</text>
+      </navLabel>
+      <content src="OEBPS/00024.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00025" playOrder="24">
+      <navLabel>
+        <text>第23回 塞上牛羊空许约</text>
+      </navLabel>
+      <content src="OEBPS/00025.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00026" playOrder="25">
+      <navLabel>
+        <text>第24回 烛畔鬓云有旧盟</text>
+      </navLabel>
+      <content src="OEBPS/00026.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00027" playOrder="26">
+      <navLabel>
+        <text>第25回 莽苍踏雪行</text>
+      </navLabel>
+      <content src="OEBPS/00027.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00028" playOrder="27">
+      <navLabel>
+        <text>第26回 赤手屠熊搏虎</text>
+      </navLabel>
+      <content src="OEBPS/00028.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00029" playOrder="28">
+      <navLabel>
+        <text>第27回 金戈荡寇鏖兵</text>
+      </navLabel>
+      <content src="OEBPS/00029.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00030" playOrder="29">
+      <navLabel>
+        <text>第28回 草木残生颅铸铁</text>
+      </navLabel>
+      <content src="OEBPS/00030.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00031" playOrder="30">
+      <navLabel>
+        <text>第29回 虫豸凝寒掌作冰</text>
+      </navLabel>
+      <content src="OEBPS/00031.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00032" playOrder="31">
+      <navLabel>
+        <text>第30回 挥洒缚豪英</text>
+      </navLabel>
+      <content src="OEBPS/00032.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00033" playOrder="32">
+      <navLabel>
+        <text>第31回 输赢成败又争由人算</text>
+      </navLabel>
+      <content src="OEBPS/00033.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00034" playOrder="33">
+      <navLabel>
+        <text>第32回 且自逍遥没谁管</text>
+      </navLabel>
+      <content src="OEBPS/00034.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00035" playOrder="34">
+      <navLabel>
+        <text>第33回 奈天昏地暗斗转星移</text>
+      </navLabel>
+      <content src="OEBPS/00035.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00036" playOrder="35">
+      <navLabel>
+        <text>第34回 风骤紧缥缈峰头云乱</text>
+      </navLabel>
+      <content src="OEBPS/00036.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00037" playOrder="36">
+      <navLabel>
+        <text>第35回 红颜弹指老刹那芳华</text>
+      </navLabel>
+      <content src="OEBPS/00037.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00038" playOrder="37">
+      <navLabel>
+        <text>第36回 梦里真真语真幻</text>
+      </navLabel>
+      <content src="OEBPS/00038.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00039" playOrder="38">
+      <navLabel>
+        <text>第37回 同一笑到头万事俱空</text>
+      </navLabel>
+      <content src="OEBPS/00039.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00040" playOrder="39">
+      <navLabel>
+        <text>第38回 糊涂醉情长计短</text>
+      </navLabel>
+      <content src="OEBPS/00040.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00041" playOrder="40">
+      <navLabel>
+        <text>第39回 解不了名缰系嗔贪</text>
+      </navLabel>
+      <content src="OEBPS/00041.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00042" playOrder="41">
+      <navLabel>
+        <text>第40回 却试问几时把痴心</text>
+      </navLabel>
+      <content src="OEBPS/00042.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00043" playOrder="42">
+      <navLabel>
+        <text>第41回 燕云十八飞骑奔腾如虎风烟举</text>
+      </navLabel>
+      <content src="OEBPS/00043.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00044" playOrder="43">
+      <navLabel>
+        <text>第42回 老魔小丑岂堪一击胜之不武</text>
+      </navLabel>
+      <content src="OEBPS/00044.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00045" playOrder="44">
+      <navLabel>
+        <text>第43回 王霸雄图血海深恨尽归尘土</text>
+      </navLabel>
+      <content src="OEBPS/00045.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00046" playOrder="45">
+      <navLabel>
+        <text>第44回 念枉求美眷良缘安在</text>
+      </navLabel>
+      <content src="OEBPS/00046.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00047" playOrder="46">
+      <navLabel>
+        <text>第45回 枯井底污泥处</text>
+      </navLabel>
+      <content src="OEBPS/00047.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00048" playOrder="47">
+      <navLabel>
+        <text>第46回 酒罢问君三语</text>
+      </navLabel>
+      <content src="OEBPS/00048.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00049" playOrder="48">
+      <navLabel>
+        <text>第47回 为谁开茶花满路</text>
+      </navLabel>
+      <content src="OEBPS/00049.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00050" playOrder="49">
+      <navLabel>
+        <text>第48回 王孙落魄怎生消得杨枝玉露</text>
+      </navLabel>
+      <content src="OEBPS/00050.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00051" playOrder="50">
+      <navLabel>
+        <text>第49回 敝屣荣华浮云生死此身何惧</text>
+      </navLabel>
+      <content src="OEBPS/00051.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00052" playOrder="51">
+      <navLabel>
+        <text>第50回 教单于折箭六军辟易奋英雄怒</text>
+      </navLabel>
+      <content src="OEBPS/00052.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00053" playOrder="52">
+      <navLabel>
+        <text>附录陈世骧先生书函</text>
+      </navLabel>
+      <content src="OEBPS/00053.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="id00054" playOrder="53">
+      <navLabel>
+        <text>后记</text>
+      </navLabel>
+      <content src="OEBPS/00054.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
